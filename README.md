@@ -2,7 +2,7 @@
 
 A secure way to transfer or share secrets.
 
-**Please note**: Still under heavy development. A working example of the current **beta release** can be found here https://beta.secretify.io
+**Please note**: Still under heavy development. A working example of the current **beta release** can be found here https://lab.secretify.io
 
 ## Getting Started
 
