@@ -1,56 +1,20 @@
-![Alt text](ui/static/outlook/icon-64.png?raw=true "Title")
+![Alt text](assets/icon-64.png?raw=true "Title")
 
 A secure way to transfer or share secrets.
 
-**Please note**: Still under heavy development. A working example of the current **beta release** can be found here https://lab.secretify.io
+**Please note**: We are not maintaining the open-source community edition at the moment, but plan to do so in the future.
 
-## Getting Started
+## Free Version
 
-To get a local copy up and running follow these simple steps.
+There is a free version available under [https://app.secretify.io](https://app.secretify.io). Feel free to use it to transfer sensitive information safely.
 
-### Prerequisites
+## Quickstart
 
-* npm
-* go
+For a quick start guide, navigate to [Quickstart Guide](https://github.com/gravitir/secretify-quickstart).
 
-### Installation
+## Integrations and Tools
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/DarioCalovic/secretify.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install --prefix ./ui
-   ```
-3. Run API
-   ```sh
-   go run cmd/api.go
-   ```
-4. Run UI
-   ```sh
-   npm run dev --prefix ./ui
-5. Open http://localhost:3000 in browser
+- [Outlook Plugin Setup Guide](https://github.com/gravitir/secretify-quickstart/blob/master/doc/secretify-outlook-plugin.md)
+- [CLI Documentation](https://github.com/gravitir/secretify-quickstart/tree/master/doc/cli)
+- [PowerShell SDK Documentation](https://github.com/gravitir/secretify-sdk-powershell)
 
-## Roadpmap
-
-- [x] First commit
-- [ ] CI/CD pipeline
-- [ ] Release stable version
-- [ ] ..more to come
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. **Any contributions you make are greatly appreciated.**
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
-
-## License
-
-Distributed under the GNU License. See LICENSE.txt for more information.
-
-## Acknowledgments
-
-Our thanks are extended but not limited to the following people:
-
-* [Reto Schelbert](https://github.com/hertus)
